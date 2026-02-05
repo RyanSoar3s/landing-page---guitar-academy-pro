@@ -1,3 +1,4 @@
-@import "../styles/base.css";
-@import "../styles/utilities.css";
-@import "../styles/header.css";
+@import "./base.css";
+@import "./utilities.css";
+@import "./components/header.css";
+@import "./components/course-schedule.css";
