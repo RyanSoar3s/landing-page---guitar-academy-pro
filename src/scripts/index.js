@@ -1,4 +1,4 @@
-import "./style.css"
+import "../styles/style.css"
 import { qs } from "./core/dom"
 import renderHeader from "./components/header/header"
 
