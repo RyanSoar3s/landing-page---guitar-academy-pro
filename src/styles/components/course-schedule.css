@@ -1,6 +1,6 @@
 .cs-title {
   font-size: 2.5rem;
-  margin-top: 100px;
+  margin: 100px 15px 0px 15px;
 
   &::after {
     content: "";
@@ -10,7 +10,7 @@
     border-bottom: 4px solid var(--gold);
     border-radius: 15px;
     margin-top: 5px;
-    bottom: -7px;
+    bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
 
