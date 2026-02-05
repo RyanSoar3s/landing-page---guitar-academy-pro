@@ -18,11 +18,6 @@
 
 }
 
-.color-gold-dark {
-  color: var(--gold-dark);
-
-}
-
 .color-gray {
   color: var(--text-gray);
 
@@ -30,6 +25,11 @@
 
 .danger {
   color: var(--danger);
+
+}
+
+.flex {
+  display: flex;
 
 }
 
@@ -55,7 +55,17 @@
 
 }
 
-.font-xbold {
+.font-bolder {
   font-weight: 900;
+
+}
+
+.relative {
+  position: relative;
+
+}
+
+.absolute {
+  position: absolute;
 
 }
