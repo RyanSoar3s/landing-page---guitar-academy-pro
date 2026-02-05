@@ -1,0 +1,17 @@
+header {
+  background: var(--banner-gradient), var(--banner-img);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 680px;
+  width: 100%;
+  padding: 0px 30px;
+
+}
+
+.header-title {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  letter-spacing: -1px;
+  margin-bottom: 25px;
+
+}
