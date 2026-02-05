@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* Colors */
+  --gold: #ffcc00;
+  --gold-dark: #b8860b;
+  --bg-dark: #0a0a0a;
+  --card-bg: #161616;
+  --text-gray: #b0b0b0;
+  --danger: #ff4444;
+  --bg-button: #10b981;
+
+  /* Fonts */
+  --font-base: "Montserrat", sans-serif;
+
+  /* Border Radius */
+  --rounded-sm: 15px;
+  --rounded-md: 20px;
+  --rounded-xl: 50px;
+
+  /* Images */
+  --banner-img: url("../assets/banner.jpg");
+
+  /* Gradients */
+  --banner-gradient: linear-gradient(rgb(0 0 0 / 76%));
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+
+}
+
+
+html, body {
+  font-family: var(--font-base);
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  line-height: 1.6;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style: none;
+
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+
+}
