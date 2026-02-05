@@ -1,0 +1,61 @@
+.bg-dark {
+  background-color: var(--bg-dark);
+
+}
+
+.bg-card {
+  background-color: var(--card-bg);
+
+}
+
+.bg-button {
+  background-color: var(--bg-button);
+
+}
+
+.color-gold {
+  color: var(--gold);
+
+}
+
+.color-gold-dark {
+  color: var(--gold-dark);
+
+}
+
+.color-gray {
+  color: var(--text-gray);
+
+}
+
+.danger {
+  color: var(--danger);
+
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.flex-col {
+  flex-direction: column;
+
+}
+
+.text-center {
+  text-align: center;
+
+}
+
+.font-light {
+  font-weight: 400;
+
+}
+
+.font-xbold {
+  font-weight: 900;
+
+}
