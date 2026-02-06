@@ -143,7 +143,7 @@ npm install
 ```
 
 4. Inicie o servidor de desenvolvimento com Vite:
-5. 
+
 ```bash
 npm run dev
 ```
