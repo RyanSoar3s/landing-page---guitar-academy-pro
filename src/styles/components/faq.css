@@ -1,0 +1,70 @@
+.faqs {
+  margin-top: 100px;
+  height: auto;
+  width: 100dvw;
+  padding-bottom: 100px;
+
+}
+
+.faqs-title {
+  margin-bottom: 40px;
+
+}
+
+.faqs-list {
+  width: min(85%, 615px);
+  gap: 10px;
+
+}
+
+.faqs-faq {
+  background: var(--card-bg);
+  margin-bottom: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #222;
+  height: auto;
+  width: 100%;
+
+  & .faqs-button {
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &::after {
+      content: "+";
+      font-size: 1.5rem;
+      transition: all .5s ease;
+
+    }
+
+    &.active::after {
+      content: "-";
+      transform: rotate(180deg);
+
+    }
+
+  }
+
+}
+
+.faqs-res {
+  font-size: 0.95rem;
+  padding: 0px 20px 0px 20px;
+  height: 0px;
+  opacity: 0;
+  overflow: hidden;
+  transition: all .5s ease;
+
+  &.open {
+    padding: 0px 20px 20px 20px;
+    height: auto;
+    opacity: 1;
+
+  }
+
+}
