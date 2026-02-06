@@ -1,13 +1,11 @@
-import { qs } from "./core/dom"
 import renderHeader from "./components/header/header"
 import renderCourseSchedule from "./components/course-schedule/course-schedule"
+import renderReviews from "./components/reviews/reviews"
 
 const initializeApp = () => {
-  const app = qs("#app")
+  const components = [ renderHeader, renderCourseSchedule, renderReviews ]
 
-  const components = [ renderHeader, renderCourseSchedule ]
-
-  components.forEach((component) => component(app))
+  components.forEach((component) => component())
 
 }
 
