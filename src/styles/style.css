@@ -2,4 +2,5 @@
 @import "./utilities.css";
 @import "./components/header.css";
 @import "./components/course-schedule.css";
-@import "./components/reviews.css"
+@import "./components/reviews.css";
+@import "./components/faq.css";
