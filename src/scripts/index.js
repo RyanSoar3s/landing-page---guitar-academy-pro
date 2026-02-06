@@ -4,6 +4,7 @@ import renderCourseSchedule from "./components/course-schedule/course-schedule"
 import renderReviews from "./components/reviews/reviews"
 import renderFaq from "./components/faq/faq"
 import renderPurchaseArea from "./components/purchase-area/purchase-area"
+import renderFooter from "./components/footer/footer"
 
 const initializeApp = () => {
   const components = [ 
@@ -11,7 +12,8 @@ const initializeApp = () => {
     renderCourseSchedule, 
     renderReviews,
     renderFaq,
-    renderPurchaseArea
+    renderPurchaseArea,
+    renderFooter
   
   ]
 
