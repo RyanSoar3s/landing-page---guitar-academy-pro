@@ -1,0 +1,44 @@
+.reviews {
+  background-color: #050505;
+  height: auto;
+  width: 100dvw ;
+  margin-top: 100px;
+  padding: 80px 0px;
+  gap: 30px;
+
+}
+
+.reviews-comments {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  width: 85%;
+  margin-top: 10px;
+
+  & .reviews-comment {
+    background-color: var(--card-bg);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+    border-bottom: 2px solid #222;
+    gap: 10px;
+
+  }
+
+}
+
+.reviews-info {
+  display: inline-flex;
+  gap: 15px;
+  align-items: center;
+
+}
+
+.reviews-icon {
+  background-color: var(--gold);
+  height: 45px;
+  width: 45px;
+  border-radius: var(--rounded-full);
+  padding: 2px;
+
+}
