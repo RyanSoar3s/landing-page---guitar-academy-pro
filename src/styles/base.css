@@ -16,6 +16,7 @@
   --rounded-sm: 15px;
   --rounded-md: 20px;
   --rounded-xl: 50px;
+  --rounded-full: calc(Infinity * 1px);
 
   /* Images */
   --banner-img: url("../assets/banner.jpg");
