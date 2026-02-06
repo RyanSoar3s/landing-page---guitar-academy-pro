@@ -20,7 +20,7 @@ const eventPurchaseArea = () => {
   const minEl = qs("#min")
   const secEl = qs("#sec")
 
-  const timeRef = 10
+  const timeRef = 7200
   let time = timeRef
 
   let hour = Math.floor(time / 3600)
