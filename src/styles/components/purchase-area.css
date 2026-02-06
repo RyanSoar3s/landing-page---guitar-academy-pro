@@ -1,0 +1,100 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  
+  }
+  50% {
+      transform: scale(1.05);
+  
+  }
+
+}
+
+.purchase-area {
+  background-color: white;
+  padding: 100px 0px;
+  border-top-left-radius: var(--rounded-xl);
+  border-top-right-radius: var(--rounded-xl);
+
+}
+
+.purchase-area-timer {
+  background-color: black;
+  display: inline-flex;
+  gap: 15px;
+  padding: 20px 40px;
+  border-radius: var(--rounded-sm);
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+
+}
+
+.purchase-area-value::after {
+  color: white;
+  position: absolute;
+  font-size: .25em;
+  left: 50%;
+  bottom: -4px;
+  transform: translateX(-50%);
+
+}
+
+.purchase-area-prices {
+  & .purchase-area-old-price {
+    font-size: 1.4rem;
+    text-decoration: line-through;
+    color: #888;
+
+  }
+
+  & .purchase-area-new-price {
+    font-size: clamp(2.8rem, 50%, 4rem);
+    font-weight: 900;
+    color: #000;
+    line-height: 1;
+    margin: 10px 0;
+
+  }
+
+  & p {
+    color: black;
+
+  }
+
+}
+
+.purchase-area-btn-buy {
+  color: white;
+  padding: 22px min(8%, 50px);
+  margin-top: 30px;
+  border-radius: 50px;
+  font-weight: 900;
+  text-decoration: none;
+  display: inline-block;
+  font-size: clamp(1rem, 4vw, 1.3rem);
+  animation: pulse 2s infinite;
+
+}
+
+.purchase-area > p {
+  color: black;
+  margin-top: 15px;
+  font-size: 0.8rem;
+
+}
+
+#hour::after {
+  content: "hora";
+
+}
+
+#min::after {
+  content: "min";
+
+}
+
+#sec::after {
+  content: "seg";
+
+}
