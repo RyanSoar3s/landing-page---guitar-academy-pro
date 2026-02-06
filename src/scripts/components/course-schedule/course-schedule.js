@@ -1,6 +1,12 @@
-import { createElement } from "../../core/dom"
+import { qs, createElement } from "../../core/dom"
 
-const renderCourseSchedule = (app) => {
+const renderCourseSchedule = () => {
+  const app = qs("#app")
+
+  createElement(app, "main", [], "")
+
+  const main = qs("main")
+
   const content = `
     <h2 class="cs-title relative font-bolder text-center">Cronograma do <span class="color-gold">Curso</span></h2>
     <div class="cs-cards relative flex flex-col relative">
@@ -96,8 +102,7 @@ const renderCourseSchedule = (app) => {
   `
 
   const classes = [ "flex-center", "flex-col" ]
-
-  createElement(app, "main", classes, content)
+  createElement(main, "section", classes, content)
 
 }
 
