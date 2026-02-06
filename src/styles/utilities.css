@@ -40,6 +40,11 @@
 
 }
 
+.justify-between {
+  justify-content: space-between;
+
+}
+
 .flex-col {
   flex-direction: column;
 
@@ -52,6 +57,11 @@
 
 .font-light {
   font-weight: 400;
+
+}
+
+.font-semibold {
+  font-weight: 700;
 
 }
 
