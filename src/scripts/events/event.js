@@ -20,7 +20,7 @@ const eventPurchaseArea = () => {
   const minEl = qs("#min")
   const secEl = qs("#sec")
 
-  const timeRef = 7200
+  const timeRef = 10
   let time = timeRef
 
   let hour = Math.floor(time / 3600)
@@ -28,9 +28,9 @@ const eventPurchaseArea = () => {
   let sec = Math.floor(time % 60)
 
   setInterval(() => {
-    hourEl.textContent = hour
-    minEl.textContent = min
-    secEl.textContent = sec
+    hourEl.textContent = (hour / 10 >= 1) ? hour : `0${hour}`
+    minEl.textContent = (min / 10 >= 1) ? min : `0${min}`
+    secEl.textContent = (sec / 10 >= 1) ? sec : `0${sec}`
 
     time = (time - 1 === -1) ? timeRef : time - 1
 
