@@ -3,6 +3,11 @@ const qs = (selector, scope = document) => {
 
 }
 
+const qsAll = (selector, scope = document) => {
+  return scope.querySelectorAll(selector)
+
+}
+
 const createElement = (element, tagName, classNames = [], content) => {
   const tag = document.createElement(tagName)
 
@@ -16,6 +21,7 @@ const createElement = (element, tagName, classNames = [], content) => {
 
 export {
   qs,
+  qsAll,
   createElement
 
 }
